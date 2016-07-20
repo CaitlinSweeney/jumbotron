@@ -1,0 +1,98 @@
+/*Bootrap jumbotron exercise*/
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.form-group{
+  display: inline-block;
+}
+
+#sign-in {
+  float:right;
+}
+
+header{
+  background-color: #000;
+  padding:20px;
+}
+.navbar{
+  background-color: #000;
+  color: #fff;
+
+}
+.navbar a{
+  color:#fff;
+}
+
+.jumbotron{
+  background-image: url('images/sails-sky.jpeg');
+  background-size: cover;
+  height: 600px;
+}
+.jumbotron h1{
+  font-family: 'Anton', sans-serif;
+  color: #fff;
+}
+
+.jumbotron p{
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+
+h3{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn.btn-primary.btn-lg{
+  background-color: #febc90;
+  border-color: #febc90;
+}
+
+#cap-button{
+   border-color: #dfdfdf;
+   border-top: 1px solid #bfbfbf;
+   background: #c2c2c2;
+   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+   background: -webkit-linear-gradient(top, #fff);
+   background: -moz-linear-gradient(top, #fff);
+   background: -ms-linear-gradient(top, #fff);
+   background: -o-linear-gradient(top, #fff);
+   padding: 6px 20px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   box-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 12px;
+   font-family: 'Open Sans', sans-serif;
+   text-align: left;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+
+#cap-button:hover {
+   border-top-color: #DFDFDF;
+   background: #bfbfbf;
+   color: #0a0a0a;
+   }
+
+#cap-button:active {
+   border-top-color: #828282;
+   background: #828282;
+   }
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      margin: auto;
+  }
+
+footer{
+  border-top: 1px, solid, #000;
+  margin: auto;
+  padding-top: 5px;
+  padding-left: 50px;
+}
